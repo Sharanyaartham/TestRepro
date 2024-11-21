@@ -1,6 +1,9 @@
-﻿function foo()
-  {
-  }
-function bar()
-{
+﻿function foo() {
+    Log.Message("Foo function executed");
 }
+
+function bar() {
+    Log.Message("Bar function executed");
+}
+  
+

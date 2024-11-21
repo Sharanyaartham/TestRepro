@@ -1,9 +1,12 @@
-﻿function foo() {
-    Log.Message("Foo function executed");
-}
-
-function bar() {
-    Log.Message("Bar function executed");
-}
+﻿Function foo()
+  Log.Message("function executed")
+End Function
   
+
+
+
+
+
+
+
 

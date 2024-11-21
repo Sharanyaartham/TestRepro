@@ -1,3 +1,6 @@
 ﻿Function foo()
   {
   }
+function bar()
+{
+}

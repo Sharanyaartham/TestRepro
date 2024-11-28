@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{67DA4759-786C-4342-84A6-341CD9AB5887}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{C6733F73-D39A-4333-923D-D47E47C120A5}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{D07C97F0-FE9D-4785-BECB-487AE96D7E92}">
+								<Image FileName="1329380327" Left="0" Top="0" Right="1366" Bottom="48" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{1A14C32A-AD5C-4504-A95C-8AE58E9515B5}">
+										<TypeInfo Item0="{911CEB83-B753-480A-845B-6153FF76A12B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{8552CC11-4D4F-4DFE-BC6C-288F589FD652}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{06A1C693-DBB5-4761-ABE6-8CBD1CDF0544}">
+								<Image FileName="-330973367" Left="-8" Top="-8" Right="1374" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{4995F0D5-8FC7-48D4-8059-0DE04BCBADAC}">
+										<Image FileName="-330973367" Left="0" Top="87" Right="1366" Bottom="720" />
+										<TypeInfo Item0="{911CEB83-B753-480A-845B-6153FF76A12B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwSaucedemoComV1" Key="{4180687D-394B-4807-908B-A890ECF74AEF}">
+								<Image FileName="1601229933" Left="0" Top="87" Right="1366" Bottom="720" />
+								<TypeInfo Item0="{0D3C4787-D2E1-4DC8-9115-6DBC8CEDF7A2}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/v1/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUserName" Key="{B0711FD5-D134-4B06-9640-1D19A138AD87}" ExtendedFind="True">
+										<Image FileName="-1327625535" Left="315" Top="254" Right="661" Bottom="296" />
+										<TypeInfo Item0="{27CB1248-81E0-4475-8C50-5891820D8379}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="user-name" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{F7DB4FE4-1F34-4227-8630-5F22740B1FE9}" ExtendedFind="True">
+										<Image FileName="-326377663" Left="315" Top="321" Right="661" Bottom="363" />
+										<TypeInfo Item0="{27CB1248-81E0-4475-8C50-5891820D8379}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="PasswordBox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="password" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{76D0FD1E-1466-427E-8151-7A9730E8673D}" ExtendedFind="True">
+										<Image FileName="835538206" Left="315" Top="388" Right="407" Bottom="432" />
+										<TypeInfo Item0="{F6E66D9A-2982-49CB-931E-66060AFE4AC6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="SubmitButton" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="login-button" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{C6733F73-D39A-4333-923D-D47E47C120A5}">
+			<Child Name="wndShell_TrayWnd" Owner="{D07C97F0-FE9D-4785-BECB-487AE96D7E92}">
+				<Child Name="DesktopWindowXamlSource" Owner="{1A14C32A-AD5C-4504-A95C-8AE58E9515B5}" />
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{8552CC11-4D4F-4DFE-BC6C-288F589FD652}">
+			<Child Name="BrowserWindow" Owner="{06A1C693-DBB5-4761-ABE6-8CBD1CDF0544}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{4995F0D5-8FC7-48D4-8059-0DE04BCBADAC}" />
+			</Child>
+			<Child Name="pageWwwSaucedemoComV1" Owner="{4180687D-394B-4807-908B-A890ECF74AEF}">
+				<Child Name="textboxUserName" Owner="{B0711FD5-D134-4B06-9640-1D19A138AD87}" />
+				<Child Name="passwordboxPassword" Owner="{F7DB4FE4-1F34-4227-8630-5F22740B1FE9}" />
+				<Child Name="submitbuttonLogin" Owner="{76D0FD1E-1466-427E-8151-7A9730E8673D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

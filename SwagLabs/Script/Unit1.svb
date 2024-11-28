@@ -1,0 +1,14 @@
+﻿Sub Test1
+  Dim page
+  Dim textbox
+  Dim passwordBox
+  Call Browsers.Item(btChrome).Navigate("https://www.saucedemo.com/v1/")
+  Set page = Aliases.browser.pageWwwSaucedemoComV1
+  Set textbox = page.textboxUserName
+  Call textbox.Click(55, 19)
+  Call textbox.SetText("standard_user")
+  Set passwordBox = page.passwordboxPassword
+  Call passwordBox.Click(35, 19)
+  Call passwordBox.SetText(Project.Variables.Password2)
+  Call page.submitbuttonLogin.ClickButton
+End Sub
